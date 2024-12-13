@@ -1,104 +1,68 @@
-# TodoApp: ASP.NET Core REST API with Blazor WebAssembly Frontend
+# 📝 TodoApp: ASP.NET Core REST API with Blazor WebAssembly Frontend
 
-## **Overview**
+## 🌟 **Tổng quan**
 
-TodoApp is a comprehensive project that combines the power of **ASP.NET Core REST API** and **Blazor WebAssembly** to provide a full-stack solution for managing tasks. The backend serves as the API provider, while the frontend offers a modern, interactive UI for users.
+TodoApp là một dự án kết hợp sức mạnh của **ASP.NET Core REST API** và **Blazor WebAssembly** để cung cấp một giải pháp toàn diện cho việc quản lý công việc. Backend đóng vai trò cung cấp API, trong khi frontend mang lại giao diện hiện đại và tương tác cho người dùng.
 
 ---
 
-## **Technologies Used**
+## 🛠️ **Công nghệ sử dụng**
 
 ### Backend (ASP.NET Core REST API)
 
-- **ASP.NET Core 6.0**
-- **Entity Framework Core** for database operations
-- **FluentValidation** for model validation
-- **AutoMapper** for DTO mapping
-- **Serilog** for advanced logging
-- **Swagger** for API documentation
+- **ASP.NET Core 9.0**
+- **Entity Framework Core** cho thao tác cơ sở dữ liệu
+- **FluentValidation** để kiểm tra hợp lệ mô hình
+- **AutoMapper** để ánh xạ DTO
+- **Swagger** cho tà9 SDK](https://dotnet.microsoft.com/download)
+- Một instance SQL Server (local hoặc cloud)
 
-### Frontend (Blazor WebAssembly)
-
-- **Blazor WebAssembly** for client-side rendering
-- **HttpClient** for API communication
-- **Bootstrap 5** for styling
-
----
-
-## **Features**
-
-### Backend Features:
-
-1. **CRUD Operations:** Fully implemented endpoints for managing Todos.
-2. **Validation:** Middleware for request validation using FluentValidation.
-3. **Error Handling:** Global exception handling middleware.
-4. **Rate Limiting:** Prevents excessive requests from a single client.
-5. **Caching:** In-memory caching for efficient data retrieval.
-6. **Swagger Integration:** API documentation and testing.
-
-### Frontend Features:
-
-1. **Responsive UI:** A modern interface built with Blazor WebAssembly.
-2. **Real-Time Data:** Fetch, create, update, and delete tasks directly from the REST API.
-3. **Routing:** Smooth navigation with built-in routing.
-4. **Reusable Components:** Blazor components for tasks and forms.
-
----
-
-## **Installation and Setup**
-
-### **1. Prerequisites:**
-
-- [.NET 6 SDK](https://dotnet.microsoft.com/download)
-- [Node.js and npm](https://nodejs.org/) (if required for frontend tools)
-- A SQL Server instance (local or cloud)
-
-### **2. Clone the Repository:**
+### **2. Clone Repository:**
 
 ```bash
-git clone https://github.com/yourusername/TodoApp.git
-cd TodoApp
+git clone https://github.com/TVinhNguyen/TodoApp.git
+
 ```
 
-### **3. Setup Backend:**
+### **3. Cài đặt Backend:**
 
-1. Navigate to the API folder:
+1. Di chuyển đến thư mục API:
    ```bash
-   cd TodoApp.Api
+   cd TodoApp
    ```
-2. Install dependencies:
+2. Cài đặt các package:
    ```bash
    dotnet restore
    ```
-3. Apply migrations and initialize the database:
+3. Áp dụng migrations và khởi tạo cơ sở dữ liệu:
    ```bash
    dotnet ef database update
    ```
-4. Run the API:
+4. Chạy API:
    ```bash
    dotnet run
    ```
-   The API will be available at `https://localhost:5001`.
+   API sẽ hoạt động tại `http://localhost:5289`.
 
-### **4. Setup Frontend:**
+### **4. Cài đặt Frontend:**
 
-1. Navigate to the Blazor project folder:
+1. Di chuyển đến thư mục Blazor:
    ```bash
-   cd TodoAppFrontend
+   cd TodoBlazor
    ```
-2. Install dependencies:
+2. Cài đặt các package:
    ```bash
    dotnet restore
    ```
-3. Run the frontend application:
+3. Chạy ứng dụng frontend:
    ```bash
    dotnet run
    ```
-   The frontend will be available at `https://localhost:5002`.
+   Frontend sẽ hoạt động tại `http://localhost:5226`.
 
 ---
 
-## **Project Structure**
+## 📂 **Cấu trúc dự án**
 
 ### Backend (API)
 
@@ -120,80 +84,69 @@ TodoApp.Api/
 ```plaintext
 TodoAppFrontend/
 ├── wwwroot/              # Static Files
-├── Pages/                # Blazor Pages
-├── Shared/               # Shared Layout and Components
+├── Component/            # Layout , Pages , Application Root
 ├── Models/               # Todo Model
 ├── Services/             # API Service Layer
 ├── Program.cs            # Entry Point
-├── App.razor             # Application Root
 ```
 
 ---
 
-## **API Endpoints**
+## 🌐 **API Endpoints**
 
 ### **Todos**
 
-| Method | Endpoint        | Description              |
-| ------ | --------------- | ------------------------ |
-| GET    | /api/todos      | Retrieve all tasks       |
-| GET    | /api/todos/{id} | Retrieve a specific task |
-| POST   | /api/todos      | Create a new task        |
-| PUT    | /api/todos/{id} | Update an existing task  |
-| DELETE | /api/todos/{id} | Delete a task            |
+| ⚡ Method | 🛣️ Endpoint       | 📝 Description              |
+|----------|-------------------|----------------------------|
+| GET      | /api/todos        | Lấy danh sách tất cả tasks |
+| GET      | /api/todos/{id}   | Lấy thông tin chi tiết     |
+| POST     | /api/todos        | Tạo task mới               |
+| PUT      | /api/todos/{id}   | Cập nhật task              |
+| DELETE   | /api/todos/{id}   | Xóa task                   |
 
 ---
 
-## **Screenshots**
+## 🖼️ **Ảnh minh họa**
 
 ### Frontend
 
-- **Home Page:**
-  Displays a list of todos.
-- **Add/Edit Task:**
-  Forms for creating or updating tasks.
-- **Delete Confirmation:**
-  Prompts before deleting tasks.
+- **Trang chủ:**
+  Hiển thị danh sách todos.
+- **Thêm/Sửa Task:**
+  Form để tạo hoặc chỉnh sửa tasks.
+- **Xác nhận xóa:**
+  Hiển thị trước khi xóa tasks.
 
 ### API
 
 - **Swagger UI:**
 
-
 ---
 
-## **Contributing**
+## 🤝 **Đóng góp**
 
-Contributions are welcome! Please follow these steps:
+Đóng góp luôn được chào đón! Vui lòng thực hiện các bước sau:
 
-1. Fork the repository.
-2. Create a new branch:
+1. Fork repository.
+2. Tạo một nhánh mới:
    ```bash
    git checkout -b feature-name
    ```
-3. Commit your changes:
+3. Commit thay đổi của bạn:
    ```bash
-   git commit -m "Add feature description"
+   git commit -m "Thêm mô tả tính năng"
    ```
-4. Push to your branch:
+4. Push lên nhánh của bạn:
    ```bash
    git push origin feature-name
    ```
-5. Create a pull request.
+5. Tạo pull request.
 
 ---
 
-## **License**
+## 📬 **Liên hệ**
 
-This project is licensed under the [MIT License](LICENSE).
 
----
+- ✉️ **Email:** [vinhgrh3@gmail.com](mailto:vinhgrh3@gmail.com)
+- 🐙 **GitHub:** [TVinhNguyen](https://github.com/TVinhNguyen)
 
-## **Contact**
-
-For questions or feedback, please reach out:
-
-- **Email:** [your-email@example.com](mailto\:your-email@example.com)
-- **GitHub:** [yourusername](https://github.com/yourusername)
-
-hãy viết bằng tiếng việt 
