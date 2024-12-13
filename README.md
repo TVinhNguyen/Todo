@@ -14,7 +14,7 @@ TodoApp là một dự án kết hợp sức mạnh của **ASP.NET Core REST AP
 - **Entity Framework Core** cho thao tác cơ sở dữ liệu
 - **FluentValidation** để kiểm tra hợp lệ mô hình
 - **AutoMapper** để ánh xạ DTO
-- **Swagger** cho tà9 SDK](https://dotnet.microsoft.com/download)
+- **Swagger** cho tài liệu API
 - Một instance SQL Server (local hoặc cloud)
 
 ### **2. Clone Repository:**
