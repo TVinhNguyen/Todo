@@ -1,0 +1,50 @@
+﻿@page "/todo-list"
+@using TodoBlazor.Models
+@inject Services.TodoService TodoService
+
+<h1>Todo List</h1>
+
+@if (Todos == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <Modal IsVisible="@IsModalVisible" OnClose="CloseModal">
+        @if (SelectedTodo != null)
+        {
+            <TodoCard Todo="SelectedTodo" />
+        }
+    </Modal>
+
+    <div class="todo-list">
+        @foreach (var todo in Todos)
+        {
+            <div @onclick="() => OpenModal(todo)">
+                <TodoCard Todo="todo" />
+            </div>
+        }
+    </div>
+}
+
+@code {
+    private List<Todo>? Todos;
+    private Todo? SelectedTodo;
+    private bool IsModalVisible;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Todos = (await TodoService.GetTodosAsync()).ToList();
+    }
+
+    private void OpenModal(Todo todo)
+    {
+        SelectedTodo = todo;
+        IsModalVisible = true;
+    }
+
+    private void CloseModal()
+    {
+        IsModalVisible = false;
+    }
+}
