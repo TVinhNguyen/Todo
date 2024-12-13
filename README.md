@@ -15,13 +15,44 @@ TodoApp là một dự án kết hợp sức mạnh của **ASP.NET Core REST AP
 - **FluentValidation** để kiểm tra hợp lệ mô hình
 - **AutoMapper** để ánh xạ DTO
 - **Swagger** cho tài liệu API
+
+### Frontend (Blazor WebAssembly)
+
+- **Blazor WebAssembly** cho render phía client
+- **HttpClient** để giao tiếp API
+- **Bootstrap 5** cho giao diện đẹp
+
+---
+
+## ✨ **Tính năng**
+
+### 🧰 Backend:
+
+1. ✅ **CRUD Operations:** Thực hiện đầy đủ các thao tác quản lý Todo.
+2. 🛡️ **Validation:** Middleware kiểm tra hợp lệ sử dụng FluentValidation.
+3. 📖 **Swagger Integration:** Tích hợp tài liệu và thử nghiệm API.
+
+### 🎨 Frontend:
+
+1. 📱 **Responsive UI:** Giao diện hiện đại, tương thích mọi thiết bị.
+2. 🔄 **Real-Time Data:** Tạo, chỉnh sửa, xóa và lấy dữ liệu từ REST API.
+3. 🧭 **Routing:** Điều hướng mượt mà với Blazor routing.
+4. 🧩 **Reusable Components:** Các thành phần Blazor tái sử dụng.
+
+---
+
+## 🚀 **Cài đặt và khởi chạy**
+
+### **1. Yêu cầu hệ thống:**
+
+- [.NET 9 SDK](https://dotnet.microsoft.com/download)
+- [Node.js and npm](https://nodejs.org/) (nếu cần cho frontend)
 - Một instance SQL Server (local hoặc cloud)
 
 ### **2. Clone Repository:**
 
 ```bash
-git clone https://github.com/TVinhNguyen/TodoApp.git
-
+git clone https://github.com/TVinhNguyen/Todo.git
 ```
 
 ### **3. Cài đặt Backend:**
@@ -42,7 +73,7 @@ git clone https://github.com/TVinhNguyen/TodoApp.git
    ```bash
    dotnet run
    ```
-   API sẽ hoạt động tại `http://localhost:5289`.
+   API sẽ hoạt động tại `https://localhost:5289`.
 
 ### **4. Cài đặt Frontend:**
 
@@ -58,7 +89,7 @@ git clone https://github.com/TVinhNguyen/TodoApp.git
    ```bash
    dotnet run
    ```
-   Frontend sẽ hoạt động tại `http://localhost:5226`.
+   Frontend sẽ hoạt động tại `https://localhost:5226`.
 
 ---
 
@@ -73,7 +104,6 @@ TodoApp.Api/
 ├── Models/               # Entity Models
 ├── Repositories/         # Data Access Layer
 ├── Services/             # Business Logic Layer
-├── Middlewares/          # Custom Middleware
 ├── Mappings/             # AutoMapper Profiles
 ├── Program.cs            # Entry Point
 ├── appsettings.json      # Configuration
@@ -84,7 +114,7 @@ TodoApp.Api/
 ```plaintext
 TodoAppFrontend/
 ├── wwwroot/              # Static Files
-├── Component/            # Layout , Pages , Application Root
+├── Component/            # Blazor Pages , Application Root
 ├── Models/               # Todo Model
 ├── Services/             # API Service Layer
 ├── Program.cs            # Entry Point
@@ -96,13 +126,13 @@ TodoAppFrontend/
 
 ### **Todos**
 
-| ⚡ Method | 🛣️ Endpoint       | 📝 Description              |
-|----------|-------------------|----------------------------|
-| GET      | /api/todos        | Lấy danh sách tất cả tasks |
-| GET      | /api/todos/{id}   | Lấy thông tin chi tiết     |
-| POST     | /api/todos        | Tạo task mới               |
-| PUT      | /api/todos/{id}   | Cập nhật task              |
-| DELETE   | /api/todos/{id}   | Xóa task                   |
+| ⚡ Method | 🛣️ Endpoint    | 📝 Description             |
+| -------- | --------------- | -------------------------- |
+| GET      | /api/todos      | Lấy danh sách tất cả tasks |
+| GET      | /api/todos/{id} | Lấy thông tin chi tiết     |
+| POST     | /api/todos      | Tạo task mới               |
+| PUT      | /api/todos/{id} | Cập nhật task              |
+| DELETE   | /api/todos/{id} | Xóa task                   |
 
 ---
 
@@ -144,9 +174,11 @@ TodoAppFrontend/
 
 ---
 
+
 ## 📬 **Liên hệ**
 
+Mọi câu hỏi hoặc phản hồi, vui lòng liên hệ:
 
-- ✉️ **Email:** [vinhgrh3@gmail.com](mailto:vinhgrh3@gmail.com)
+- ✉️ **Email:** [vinhgrh3@gmail.com](mailto\:vinhgrh3@gmail.com)
 - 🐙 **GitHub:** [TVinhNguyen](https://github.com/TVinhNguyen)
 
