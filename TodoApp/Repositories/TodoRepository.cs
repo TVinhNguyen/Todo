@@ -1,12 +1,14 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
+using TodoApp.Data;
+using TodoApp.Models;
 
-namespace Todo_restApi.Repositories;
-
-using Todo_restApi.Data;
-using Todo_restApi.Models;
-
-public class TodoRepository : ITodoRepository
+namespace TodoApp.Repositories
 {
+    public class TodoRepository : ITodoRepository
+    {
         private readonly TodoContext _context;
 
         public TodoRepository(TodoContext context)
@@ -14,26 +16,19 @@ public class TodoRepository : ITodoRepository
             _context = context;
         }
 
-        public IEnumerable<Todo> GetAllTodos()
+        public IEnumerable<Todo> GetTodosByUserId(int userId)
         {
-            return _context.Todos.ToList();
+            return _context.Todos.Where(t => t.userId == userId).ToList();
         }
 
         public Todo GetTodoById(int id)
         {
-            var todo = _context.Todos.Find(id);
-            if (todo != null)
-            {
-                
-                return todo;
-            }
-            return null;
+            return _context.Todos.FirstOrDefault(t => t.Id == id);
         }
 
         public void AddTodo(Todo todo)
         {
             _context.Todos.Add(todo);
-
         }
 
         public void UpdateTodo(Todo todo)
@@ -43,16 +38,16 @@ public class TodoRepository : ITodoRepository
 
         public void DeleteTodo(int id)
         {
-            var todo = _context.Todos.Find(id);
+            var todo = GetTodoById(id);
             if (todo != null)
             {
                 _context.Todos.Remove(todo);
             }
         }
+
         public bool SaveChanges()
         {
             return _context.SaveChanges() > 0;
         }
+    }
 }
-
-

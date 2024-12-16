@@ -1,0 +1,104 @@
+﻿@inject ILogger<Todo> Logger
+
+<style>
+    .todo-card {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        padding: 20px;
+        margin: 10px 0;
+        transition: all 0.3s ease;
+    }
+
+    .todo-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+
+    .todo-title {
+        color: #2c3e50;
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .todo-description {
+        color: #34495e;
+        font-size: 1rem;
+        margin-bottom: 15px;
+        line-height: 1.5;
+    }
+
+    .todo-status {
+        display: inline-block;
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-size: 0.875rem;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .status-completed {
+        background-color: #27ae60;
+        color: white;
+    }
+
+    .status-pending {
+        background-color: #e74c3c;
+        color: white;
+    }
+
+    .todo-dates {
+        display: flex;
+        gap: 15px;
+        font-size: 0.8rem;
+        color: #7f8c8d;
+    }
+
+    .date-item {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+</style>
+
+@if (Todo != null)
+{
+    <div class="todo-card">
+        <h5 class="todo-title">@Todo.Title</h5>
+        <p class="todo-description">@Todo.Description</p>
+        <span class="todo-status @(Todo.IsCompleted ? "status-completed" : "status-pending")">
+            @(Todo.IsCompleted ? "Completed" : "Pending")
+        </span>
+        <div class="todo-dates">
+            <div class="date-item">
+                <i class="fas fa-calendar-plus"></i>
+                <span>Created: @Todo.CreatedAt.ToString("g")</span>
+            </div>
+            @if (Todo.UpdatedAt.HasValue)
+            {
+                <div class="date-item">
+                    <i class="fas fa-calendar-check"></i>
+                    <span>Updated: @Todo.UpdatedAt.Value.ToString("g")</span>
+                </div>
+            }
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public Todo? Todo { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        if (Todo != null)
+        {
+            Logger.LogInformation($"Todo: {Todo.Title}");
+        }
+        else
+        {
+            Logger.LogInformation("TodoCard received null todo");
+        }
+    }
+}

@@ -1,0 +1,191 @@
+﻿@page "/todo-list"
+@using TodoBlazor.Model
+@using TodoBlazor.Shared
+@inject Service.TodoService TodoService
+@inject ILogger<TodoList> Logger
+
+<style>
+    .todo-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .todo-item {
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+
+    .todo-item:hover {
+        transform: translateY(-5px);
+    }
+
+    .page-title {
+        color: #2c3e50;
+        margin-bottom: 2rem;
+        padding: 1rem;
+    }
+
+    .controls {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+        padding: 0 1rem;
+    }
+
+    .add-button {
+        background: #3498db;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background 0.2s ease;
+    }
+
+    .add-button:hover {
+        background: #2980b9;
+    }
+</style>
+
+<div class="page-title">
+    <h1>Todo List</h1>
+</div>
+
+<div class="controls">
+    <button class="add-button" @onclick="OpenAddModal">
+        Add New Todo
+    </button>
+</div>
+
+@if (Error != null)
+{
+    <div class="alert alert-danger">@Error</div>
+}
+else if (Todos == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <div class="todo-list">
+        @if (Todos.Any())
+        {
+            @foreach (var todo in Todos)
+            {
+                <div class="todo-item" @onclick="@(() => OpenEditModal(todo))">
+                    <TodoCard Todo="@todo" />
+                </div>
+            }
+        }
+        else
+        {
+            <p>No todos available.</p>
+        }
+    </div>
+}
+
+<Modal 
+    IsVisible="@IsModalVisible" 
+    OnClose="@CloseModal"
+    Title="@modalTitle"
+    ShowSaveButton="true"
+    OnSave="@SaveTodo">
+    <div class="form-group">
+        <label class="form-label">Title</label>
+        <input class="form-control" @bind="currentTodo.Title" />
+    </div>
+    <div class="form-group">
+        <label class="form-label">Description</label>
+        <textarea class="form-control" @bind="currentTodo.Description" rows="3"></textarea>
+    </div>
+    <div class="form-group">
+        <label class="form-label">
+            <input type="checkbox" @bind="currentTodo.IsCompleted" />
+            Completed
+        </label>
+    </div>
+</Modal>
+
+@code {
+    private List<Todo>? Todos;
+    private Todo currentTodo = new();
+    private bool IsModalVisible;
+    private string? Error;
+    private string modalTitle = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadTodos();
+    }
+
+    private async Task LoadTodos()
+    {
+        try
+        {
+            Todos = (await TodoService.GetTodosAsync()).ToList();
+            Logger.LogInformation($"Todos count: {Todos.Count}");
+        }
+        catch (Exception ex)
+        {
+            Error = $"Error loading todos: {ex.Message}";
+            Logger.LogError(ex, "Error loading todos");
+        }
+    }
+
+    private void OpenAddModal()
+    {
+        modalTitle = "Add New Todo";
+        currentTodo = new Todo
+        {
+            CreatedAt = DateTime.Now,
+            UpdatedAt = DateTime.Now
+        };
+        IsModalVisible = true;
+    }
+
+    private void OpenEditModal(Todo todo)
+    {
+        modalTitle = "Edit Todo";
+        currentTodo = new Todo
+        {
+            Id = todo.Id,
+            Title = todo.Title,
+            Description = todo.Description,
+            IsCompleted = todo.IsCompleted,
+            CreatedAt = todo.CreatedAt,
+            UpdatedAt = DateTime.Now
+        };
+        IsModalVisible = true;
+    }
+
+    private async Task SaveTodo()
+    {
+        try
+        {
+            if (currentTodo.Id == 0)
+            {
+                await TodoService.CreateTodoAsync(currentTodo);
+            }
+            else
+            {
+                await TodoService.UpdateTodoAsync(currentTodo);
+            }
+            await LoadTodos();
+            CloseModal();
+        }
+        catch (Exception ex)
+        {
+            Error = $"Error saving todo: {ex.Message}";
+            Logger.LogError(ex, "Error saving todo");
+        }
+    }
+
+    private void CloseModal()
+    {
+        IsModalVisible = false;
+        currentTodo = new Todo();
+    }
+}

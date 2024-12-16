@@ -1,0 +1,30 @@
+﻿@page "/todo-details/{id:int}"
+@using TodoBlazor.Model
+@inject Service.TodoService TodoService
+
+<h1>Todo Details</h1>
+
+@if (Todo == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <div>
+        <h2>@Todo.Title</h2>
+        <p>@Todo.Description</p>
+        <p>Status: @(Todo.IsCompleted ? "Completed" : "Pending")</p>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Todo? Todo;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Todo = await TodoService.GetTodoByIdAsync(Id);
+    }
+}

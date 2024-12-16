@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp", "TodoApp\TodoApp.csproj", "{EB3535CC-52CE-4515-889F-54E4C3CEADF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoBlazor", "TodoBlazor\TodoBlazor.csproj", "{460CAA2A-8751-407D-9123-D2B64F2E275E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoBlazor", "TodoBlazor\TodoBlazor.csproj", "{937D90EF-33EC-4176-BC64-CF33F3D7C62E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{EB3535CC-52CE-4515-889F-54E4C3CEADF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB3535CC-52CE-4515-889F-54E4C3CEADF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB3535CC-52CE-4515-889F-54E4C3CEADF3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{460CAA2A-8751-407D-9123-D2B64F2E275E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{460CAA2A-8751-407D-9123-D2B64F2E275E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{460CAA2A-8751-407D-9123-D2B64F2E275E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{460CAA2A-8751-407D-9123-D2B64F2E275E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{937D90EF-33EC-4176-BC64-CF33F3D7C62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937D90EF-33EC-4176-BC64-CF33F3D7C62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937D90EF-33EC-4176-BC64-CF33F3D7C62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937D90EF-33EC-4176-BC64-CF33F3D7C62E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

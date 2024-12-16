@@ -1,17 +1,21 @@
 is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net9.0
 build_property.TargetPlatformMinVersion = 
-build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
-build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
-build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = browser
 build_property.RootNamespace = TodoBlazor
 build_property.RootNamespace = TodoBlazor
 build_property.ProjectDir = D:\VS\Asp.net\Todo\TodoBlazor\
 build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -20,42 +24,62 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/VS/Asp.net/Todo/TodoBlazor/Components/App.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+[D:/VS/Asp.net/Todo/TodoBlazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS/Asp.net/Todo/TodoBlazor/Components/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbmRleC5yYXpvcg==
+[D:/VS/Asp.net/Todo/TodoBlazor/Pages/Completed.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGxldGVkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS/Asp.net/Todo/TodoBlazor/Components/Pages/TodoDetails.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUb2RvRGV0YWlscy5yYXpvcg==
+[D:/VS/Asp.net/Todo/TodoBlazor/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS/Asp.net/Todo/TodoBlazor/Components/Pages/TodoList.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUb2RvTGlzdC5yYXpvcg==
+[D:/VS/Asp.net/Todo/TodoBlazor/Pages/Important.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW1wb3J0YW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS/Asp.net/Todo/TodoBlazor/Components/Routes.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+[D:/VS/Asp.net/Todo/TodoBlazor/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS/Asp.net/Todo/TodoBlazor/Components/Todo/Modal.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUb2RvXE1vZGFsLnJhem9y
+[D:/VS/Asp.net/Todo/TodoBlazor/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS/Asp.net/Todo/TodoBlazor/Components/Todo/TodoCard.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUb2RvXFRvZG9DYXJkLnJhem9y
+[D:/VS/Asp.net/Todo/TodoBlazor/Pages/Today.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9kYXkucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS/Asp.net/Todo/TodoBlazor/Components/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+[D:/VS/Asp.net/Todo/TodoBlazor/Pages/TodoDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9kb0RldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS/Asp.net/Todo/TodoBlazor/Components/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-q2tgii0hzz
+[D:/VS/Asp.net/Todo/TodoBlazor/Pages/TodoList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9kb0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS/Asp.net/Todo/TodoBlazor/Components/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-1dwbrr8o73
+[D:/VS/Asp.net/Todo/TodoBlazor/Pages/Upcoming.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBjb21pbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VS/Asp.net/Todo/TodoBlazor/Shared/Modal.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1vZGFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VS/Asp.net/Todo/TodoBlazor/Shared/TodoCard.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRvZG9DYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VS/Asp.net/Todo/TodoBlazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VS/Asp.net/Todo/TodoBlazor/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-q8vtpoqi82
+
+[D:/VS/Asp.net/Todo/TodoBlazor/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-wifd3y8ajc

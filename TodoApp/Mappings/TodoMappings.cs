@@ -1,7 +1,7 @@
 using System;
 using AutoMapper;
-using Todo_restApi.DTOs;
-using Todo_restApi.Models;
+using TodoApp.DTOs;
+using TodoApp.Models;
 
 namespace Todo_restApi.Mappings;
 

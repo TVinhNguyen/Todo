@@ -1,6 +1,6 @@
 using System;
 
-namespace Todo_restApi.DTOs;
+namespace TodoApp.DTOs;
 
 public class TodoCreateDto
 {

@@ -1,6 +1,6 @@
 using System;
 
-namespace Todo_restApi.Models;
+namespace TodoApp.Models;
 public class Todo
 {
         public int Id { get; set; }          
@@ -9,4 +9,6 @@ public class Todo
         public bool IsCompleted { get; set; } 
         public DateTime CreatedAt { get; set; } 
         public DateTime? UpdatedAt { get; set; } 
+        public int userId{ get; set; }
+        public User? User { get; set; }
 }

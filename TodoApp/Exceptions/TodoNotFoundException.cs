@@ -1,6 +1,6 @@
 using System;
 
-namespace Todo_restApi.Exceptions;
+namespace TodoApp.Exceptions;
 
 public class TodoNotFoundException : Exception
 {

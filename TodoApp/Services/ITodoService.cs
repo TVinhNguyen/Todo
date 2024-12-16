@@ -1,13 +1,18 @@
-using System;
-using Todo_restApi.DTOs;
+using TodoApp.DTOs;
+using System.Collections.Generic;
 
-namespace Todo_restApi.Services;
-
-public interface ITodoService
+namespace TodoApp.Services
 {
-    IEnumerable<TodoReadDto> GetAllTodos();
-    TodoReadDto GetTodoById(int id);
-    TodoReadDto CreateTodo(TodoCreateDto todoCreateDto);
-    void UpdateTodo(int id, TodoUpdateDto todoUpdateDto);
-    void DeleteTodo(int id);
+    public interface ITodoService
+    {
+        IEnumerable<TodoReadDto> GetTodosByUserId(int userId);
+
+        TodoReadDto GetTodoByIdAndUserId(int id, int userId);
+        
+        TodoReadDto CreateTodoForUser(TodoCreateDto todoCreateDto, int userId);
+
+        void UpdateTodoForUser(int id, int userId, TodoUpdateDto todoUpdateDto);
+
+        void DeleteTodoForUser(int id, int userId);
+    }
 }

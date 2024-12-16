@@ -1,53 +1,14 @@
-using TodoBlazor.Services;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-using TodoBlazor.Components;
+using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using TodoBlazor;
+using TodoBlazor.Service;
 
-var builder = WebApplication.CreateBuilder(args);
+var builder = WebAssemblyHostBuilder.CreateDefault(args);
+builder.RootComponents.Add<App>("#app");
+builder.RootComponents.Add<HeadOutlet>("head::after");
 
-// Đăng ký dịch vụ HTTP client
-builder.Services.AddScoped(sp =>
-    new HttpClient { BaseAddress = new Uri("http://localhost:5289") });
-
-// Đăng ký dịch vụ TodoService
 builder.Services.AddScoped<TodoService>();
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:5289") });
 
-// Đăng ký Razor Components
-builder.Services.AddRazorComponents()
-    .AddInteractiveServerComponents();
 
-// Đăng ký Razor Pages và Blazor
-builder.Services.AddRazorPages();
-builder.Services.AddServerSideBlazor();
-
-// Đăng ký Antiforgery
-builder.Services.AddAntiforgery(options =>
-{
-    options.HeaderName = "X-CSRF-TOKEN"; // Tùy chỉnh tên header nếu cần
-});
-
-var app = builder.Build();
-
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Error");
-    app.UseHsts();
-}
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-
-// Thêm middleware Antiforgery (phải đăng ký dịch vụ trước)
-app.UseAntiforgery();
-
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllers(); // Nếu sử dụng API Controllers
-});
-
-app.MapRazorComponents<App>()
-    .AddInteractiveServerRenderMode();
-
-app.Run();
+await builder.Build().RunAsync();

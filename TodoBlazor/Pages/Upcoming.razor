@@ -1,0 +1,55 @@
+﻿@page "/upcoming"
+
+<PageTitle>Upcoming Tasks</PageTitle>
+
+<div class="container mt-4">
+    <h3><i class="bi bi-calendar-week"></i> Upcoming Tasks</h3>
+    
+    <div class="card mt-4">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <input type="text" class="form-control" placeholder="Add new task..." @bind="newTask" @onkeyup="AddTask" />
+            </div>
+
+            @if (upcomingTasks.Any())
+            {
+                foreach (var task in upcomingTasks)
+                {
+                    <div class="d-flex align-items-center mb-2">
+                        <input type="checkbox" checked="@task.IsCompleted" @onchange="e => ToggleComplete(task)" />
+                        <span class="ms-2 @(task.IsCompleted ? "text-decoration-line-through" : "")">@task.Title</span>
+                    </div>
+                }
+            }
+            else
+            {
+                <p class="text-muted">No upcoming tasks</p>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    private string newTask = "";
+    private List<TodoItem> upcomingTasks = new();
+
+    private class TodoItem
+    {
+        public string? Title { get; set; }
+        public bool IsCompleted { get; set; }
+    }
+
+    private void AddTask(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter" && !string.IsNullOrWhiteSpace(newTask))
+        {
+            upcomingTasks.Add(new TodoItem { Title = newTask });
+            newTask = "";
+        }
+    }
+
+    private void ToggleComplete(TodoItem task)
+    {
+        task.IsCompleted = !task.IsCompleted;
+    }
+}

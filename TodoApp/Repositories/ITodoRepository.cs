@@ -1,14 +1,21 @@
 using System;
-using Todo_restApi.Models;
+using System.Collections.Generic;
+using TodoApp.Models;
 
-namespace Todo_restApi.Repositories;
-
- public interface ITodoRepository
+namespace TodoApp.Repositories
 {
-        IEnumerable<Todo> GetAllTodos();
+    public interface ITodoRepository
+    {
+        IEnumerable<Todo> GetTodosByUserId(int userId);
+
         Todo GetTodoById(int id);
+
         void AddTodo(Todo todo);
+
         void UpdateTodo(Todo todo);
+
         void DeleteTodo(int id);
+
         bool SaveChanges();
+    }
 }

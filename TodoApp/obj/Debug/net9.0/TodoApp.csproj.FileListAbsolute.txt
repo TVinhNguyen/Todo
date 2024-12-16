@@ -158,3 +158,4 @@ D:\VS\Asp.net\Todo\TodoApp\obj\Debug\net9.0\refint\TodoApp.dll
 D:\VS\Asp.net\Todo\TodoApp\obj\Debug\net9.0\TodoApp.pdb
 D:\VS\Asp.net\Todo\TodoApp\obj\Debug\net9.0\TodoApp.genruntimeconfig.cache
 D:\VS\Asp.net\Todo\TodoApp\obj\Debug\net9.0\ref\TodoApp.dll
+D:\VS\Asp.net\Todo\TodoApp\obj\Debug\net9.0\TodoApp.sourcelink.json
