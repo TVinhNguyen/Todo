@@ -155,6 +155,8 @@ TodoAppFrontend/
 
 - **Trang chủ:**
   Hiển thị danh sách todos.
+  ![image](https://github.com/user-attachments/assets/368478d4-3d7d-454a-bad8-a41af3eba8da)
+
 - **Thêm/Sửa Task:**
   Form để tạo hoặc chỉnh sửa tasks.
 - **Xác nhận xóa:**
