@@ -1,4 +1,4 @@
-# 📝 TodoApp: ASP.NET Core REST API with Blazor WebAssembly Frontend
+# TodoApp: ASP.NET Core REST API with Blazor WebAssembly Frontend
 
 ## 🌟 **Tổng quan**
 
@@ -15,6 +15,7 @@ TodoApp là một dự án kết hợp sức mạnh của **ASP.NET Core REST AP
 - **FluentValidation** để kiểm tra hợp lệ mô hình
 - **AutoMapper** để ánh xạ DTO
 - **Swagger** cho tài liệu API
+- **JWT Bearer Authentication** để bảo mật bằng token
 
 ### Frontend (Blazor WebAssembly)
 
@@ -31,6 +32,10 @@ TodoApp là một dự án kết hợp sức mạnh của **ASP.NET Core REST AP
 1. ✅ **CRUD Operations:** Thực hiện đầy đủ các thao tác quản lý Todo.
 2. 🛡️ **Validation:** Middleware kiểm tra hợp lệ sử dụng FluentValidation.
 3. 📖 **Swagger Integration:** Tích hợp tài liệu và thử nghiệm API.
+4. 🔒 **JWT Bearer Authentication:** Cung cấp cơ chế xác thực và bảo mật với token.
+   - Người dùng đăng nhập để nhận token.
+   - Token được sử dụng để xác thực trong các yêu cầu API.
+   - Dữ liệu của tài khoản người dùng được trả về frontend sau khi đăng nhập thành công.
 
 ### 🎨 Frontend:
 
@@ -38,6 +43,7 @@ TodoApp là một dự án kết hợp sức mạnh của **ASP.NET Core REST AP
 2. 🔄 **Real-Time Data:** Tạo, chỉnh sửa, xóa và lấy dữ liệu từ REST API.
 3. 🧭 **Routing:** Điều hướng mượt mà với Blazor routing.
 4. 🧩 **Reusable Components:** Các thành phần Blazor tái sử dụng.
+5. 🔐 **Token-Based Access:** Quản lý truy cập API dựa trên token JWT từ backend.
 
 ---
 
@@ -134,6 +140,13 @@ TodoAppFrontend/
 | PUT      | /api/todos/{id} | Cập nhật task              |
 | DELETE   | /api/todos/{id} | Xóa task                   |
 
+### **Authentication**
+
+| ⚡ Method | 🛣️ Endpoint        | 📝 Description              |
+| -------- | ------------------ | --------------------------- |
+| POST     | /api/auth/login    | Đăng nhập và nhận JWT token |
+| POST     | /api/auth/register | Đăng ký tài khoản mới       |
+
 ---
 
 ## 🖼️ **Ảnh minh họa**
@@ -142,6 +155,8 @@ TodoAppFrontend/
 
 - **Trang chủ:**
   Hiển thị danh sách todos.
+  ![image](https://github.com/user-attachments/assets/368478d4-3d7d-454a-bad8-a41af3eba8da)
+
 - **Thêm/Sửa Task:**
   Form để tạo hoặc chỉnh sửa tasks.
 - **Xác nhận xóa:**
@@ -174,11 +189,10 @@ TodoAppFrontend/
 
 ---
 
-
 ## 📬 **Liên hệ**
 
 Mọi câu hỏi hoặc phản hồi, vui lòng liên hệ:
 
-- ✉️ **Email:** [vinhgrh3@gmail.com](mailto\:vinhgrh3@gmail.com)
+- ✉️ **Email:** [vinhgrh3@gmail.com](mailto:vinhgrh3@gmail.com)
 - 🐙 **GitHub:** [TVinhNguyen](https://github.com/TVinhNguyen)
 
