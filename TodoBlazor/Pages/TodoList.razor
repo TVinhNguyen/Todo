@@ -3,6 +3,8 @@
 @using TodoBlazor.Shared
 @inject Service.TodoService TodoService
 @inject ILogger<TodoList> Logger
+@inject NavigationManager NavigationManager
+@inject AuthState AuthState
 
 <style>
     .todo-list {
@@ -50,64 +52,73 @@
     }
 </style>
 
-<div class="page-title">
-    <h1>Todo List</h1>
-</div>
-
-<div class="controls">
-    <button class="add-button" @onclick="OpenAddModal">
-        Add New Todo
-    </button>
-</div>
-
-@if (Error != null)
+@if (!AuthState.IsAuthenticated)
 {
-    <div class="alert alert-danger">@Error</div>
-}
-else if (Todos == null)
-{
-    <p>Loading...</p>
+    NavigationManager.NavigateTo("/login");
+    <p>Redirecting to login...</p>
 }
 else
 {
-    <div class="todo-list">
-        @if (Todos.Any())
-        {
-            @foreach (var todo in Todos)
-            {
-                <div class="todo-item" @onclick="@(() => OpenEditModal(todo))">
-                    <TodoCard Todo="@todo" />
-                </div>
-            }
-        }
-        else
-        {
-            <p>No todos available.</p>
-        }
+    <div class="page-title">
+        <h1>Todo List</h1>
     </div>
+
+    <div class="controls">
+        <button class="add-button" @onclick="OpenAddModal">
+            Add New Todo
+        </button>
+    </div>
+
+    @if (Error != null)
+    {
+        <div class="alert alert-danger">@Error</div>
+    }
+    else if (Todos == null)
+    {
+        <p>Loading...</p>
+    }
+    else
+    {
+        <div class="todo-list">
+            @if (Todos.Any())
+            {
+                @foreach (var todo in Todos)
+                {
+                    <div class="todo-item" @onclick="@(() => OpenEditModal(todo))">
+                        <TodoCard Todo="@todo" />
+                    </div>
+                }
+            }
+            else
+            {
+                <p>No todos available.</p>
+            }
+        </div>
+    }
+
+    <Modal 
+        IsVisible="@IsModalVisible" 
+        OnClose="@CloseModal"
+        Title="@modalTitle"
+        ShowSaveButton="true"
+        OnSave="@SaveTodo">
+        <div class="form-group">
+            <label class="form-label">Title</label>
+            <input class="form-control" @bind="currentTodo.Title" />
+        </div>
+        <div class="form-group">
+            <label class="form-label">Description</label>
+            <textarea class="form-control" @bind="currentTodo.Description" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label class="form-label">
+                <input type="checkbox" @bind="currentTodo.IsCompleted" />
+                Completed
+            </label>
+        </div>
+    </Modal>
 }
 
-<Modal 
-    IsVisible="@IsModalVisible" 
-    OnClose="@CloseModal"
-    Title="@modalTitle"
-    ShowSaveButton="true"
-    OnSave="@SaveTodo">
-    <div class="form-group">
-        <label class="form-label">Title</label>
-        <input class="form-control" @bind="currentTodo.Title" />
-    </div>
-    <div class="form-group">
-        <label class="form-label">Description</label>
-        <textarea class="form-control" @bind="currentTodo.Description" rows="3"></textarea>
-    </div>
-    <div class="form-group">
-        <label class="form-label">
-            <input type="checkbox" @bind="currentTodo.IsCompleted" />
-            Completed
-        </label>
-    </div>
-</Modal>
 
 @code {
     private List<Todo>? Todos;

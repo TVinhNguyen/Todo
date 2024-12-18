@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FIEMLZy5oZN+C8172BeLbc2nSZXA0EV8fA+F+MnPnfc=",
+  "Hash": "iz+UntaqNB+rTifPKhoteoTWy9YPJB0YHkXRuHF6sQ4=",
   "Source": "TodoBlazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "zn3fvkk25r",
-      "Integrity": "T8+0OCVryqMM+K7Amn+TdXA7tVH5iFhx1uRvIChEm2E=",
+      "Fingerprint": "t55hm7yg7x",
+      "Integrity": "YaYJaNx/yjUC8VaX20sWUjwGAZi/7PFDa9Z3ZPZet5E=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -57,6 +57,48 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\9.0.0\\build\\net9.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "12n6dz54qr",
+      "Integrity": "OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\webcil\\Blazored.LocalStorage.wasm"
+    },
+    {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Blazored.SessionStorage.wasm",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.SessionStorage#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "nmocnrh0nf",
+      "Integrity": "USXXmlZp/+6sydakLBWsU7ieGbqCqqK4+8uTGUPiZK8=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\webcil\\Blazored.SessionStorage.wasm"
     },
     {
       "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\dotnet.js",
@@ -267,6 +309,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\webcil\\Microsoft.AspNetCore.Authorization.wasm"
+    },
+    {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.wasm",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "5ja82b9mxc",
+      "Integrity": "r7rvOIT/7U2j/hWzOguOLut5faxH/7SHPfhDI2qDyfU=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\webcil\\Microsoft.AspNetCore.Components.Authorization.wasm"
     },
     {
       "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.wasm",
@@ -542,6 +605,48 @@
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\webcil\\Microsoft.Extensions.DependencyInjection.wasm"
     },
     {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Diagnostics.Abstractions.wasm",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Diagnostics.Abstractions#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "mdr4398mwf",
+      "Integrity": "ZvWhi/8GakaMIepq3seMueSO7FueT6jwwWGlhmpdTxA=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\webcil\\Microsoft.Extensions.Diagnostics.Abstractions.wasm"
+    },
+    {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Diagnostics.wasm",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Diagnostics#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "4e28mmhchr",
+      "Integrity": "5EMkwnYuvQnQE5Ip/R/w1es7yBkVWIU1omfSovoLFNQ=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\webcil\\Microsoft.Extensions.Diagnostics.wasm"
+    },
+    {
       "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.wasm",
       "SourceId": "TodoBlazor",
       "SourceType": "Computed",
@@ -605,6 +710,27 @@
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\webcil\\Microsoft.Extensions.FileSystemGlobbing.wasm"
     },
     {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.wasm",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "19whzah939",
+      "Integrity": "hXiPpWPveO5qsdEW2Gv44+2FTo1+h44csvRy7ob7mSM=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\webcil\\Microsoft.Extensions.Http.wasm"
+    },
+    {
       "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.wasm",
       "SourceId": "TodoBlazor",
       "SourceType": "Computed",
@@ -645,6 +771,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\webcil\\Microsoft.Extensions.Logging.wasm"
+    },
+    {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.ConfigurationExtensions.wasm",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "cy00pk0ov5",
+      "Integrity": "LHJxyJTXngS15YKxbxoWeE9c1ppPN5KbksH4t69pycs=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\webcil\\Microsoft.Extensions.Options.ConfigurationExtensions.wasm"
     },
     {
       "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.wasm",
@@ -855,6 +1002,48 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\webcil\\netstandard.wasm"
+    },
+    {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Newtonsoft.Json.wasm",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "qkbufwhni2",
+      "Integrity": "GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\webcil\\Newtonsoft.Json.wasm"
+    },
+    {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\ProtectedLocalStore.wasm",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ProtectedLocalStore#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "zn3ggy42wi",
+      "Integrity": "cfE/dVsw+3qWE/guJl+VNA7zv/6B9+FfZ2TOeOB1+As=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\webcil\\ProtectedLocalStore.wasm"
     },
     {
       "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.AppContext.wasm",
@@ -4252,8 +4441,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "x7v1vmxdqz",
-      "Integrity": "TTtGr3nN7HATrdOLXCav+wjffmALrwt4MRzk857dl14=",
+      "Fingerprint": "6gtd6jk8k5",
+      "Integrity": "VggF4BOB3XkqcWvjUaIeeLFuyEP1LIVMqSXxUTro14U=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\TodoBlazor.pdb"
@@ -4273,8 +4462,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "41yhtf6iq1",
-      "Integrity": "iH+8aCOox81ySl3G/jy85+7fYqMJu9p8wQX3AAKxSl0=",
+      "Fingerprint": "am4h59h2mr",
+      "Integrity": "oqqKUlab4/MN9ge+0wYkqMsv9j9DE4oumwYUNKQlsGQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\webcil\\TodoBlazor.wasm"
@@ -4404,6 +4593,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Private.Uri.wasm"
+    },
+    {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\0rb7ms2j34-5ja82b9mxc.gz",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization#[.{fingerprint=5ja82b9mxc}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "pxdu2mkuv4",
+      "Integrity": "80M1CNLxcoaF0tJiGERJVL76pq4+cPSskY+4ja+Jq5U=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.wasm"
     },
     {
       "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\150p1oop16-kgx44iwuj9.gz",
@@ -5162,6 +5372,27 @@
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Net.wasm"
     },
     {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\5sj9kr8m0a-zn3ggy42wi.gz",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ProtectedLocalStore#[.{fingerprint=zn3ggy42wi}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\ProtectedLocalStore.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "dskvys3z5e",
+      "Integrity": "/byERs5KjmNYkJBBJrdDdcTsylSPkzhAq8GfivZLyxc=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\ProtectedLocalStore.wasm"
+    },
+    {
       "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\5yf9gxz4iv-qwfipn2fwe.gz",
       "SourceId": "TodoBlazor",
       "SourceType": "Computed",
@@ -5603,6 +5834,27 @@
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.IO.MemoryMappedFiles.wasm"
     },
     {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\8kz33rjsnu-mdr4398mwf.gz",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Diagnostics.Abstractions#[.{fingerprint=mdr4398mwf}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Diagnostics.Abstractions.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5pz3a8qirc",
+      "Integrity": "eWHLLf0JcLEvmx7jRm+9udTYZwBzQ6trqdd4iuT486c=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Diagnostics.Abstractions.wasm"
+    },
+    {
       "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\8y88516lfh-hrwsygsryq.gz",
       "SourceId": "TodoBlazor",
       "SourceType": "Discovered",
@@ -5666,6 +5918,27 @@
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Resources.ResourceManager.wasm"
     },
     {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\932cf8phwu-nmocnrh0nf.gz",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.SessionStorage#[.{fingerprint=nmocnrh0nf}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Blazored.SessionStorage.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jks4er2zpq",
+      "Integrity": "o2PLHFxoGgJYt711aYRfTytCLOSY3DbPDLLP6+wjtrg=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Blazored.SessionStorage.wasm"
+    },
+    {
       "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\9dgril0pnk-j1e5q5wved.gz",
       "SourceId": "TodoBlazor",
       "SourceType": "Computed",
@@ -5687,12 +5960,12 @@
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Xml.Serialization.wasm"
     },
     {
-      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\9mheq6a2v3-h1e6qj2uyw.gz",
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\9mheq6a2v3-rir08mxyu4.gz",
       "SourceId": "TodoBlazor",
       "SourceType": "Computed",
       "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "TodoBlazor#[.{fingerprint=h1e6qj2uyw}]!.bundle.scp.css.gz",
+      "RelativePath": "TodoBlazor#[.{fingerprint=rir08mxyu4}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -5701,8 +5974,8 @@
       "RelatedAsset": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TodoBlazor.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zm6mz5z560",
-      "Integrity": "5Y1NU1EWnl7+sgpX3HUMVF71ySc9p4dGAumUXoC4OYM=",
+      "Fingerprint": "ncgwxft2it",
+      "Integrity": "OTj03yIqrNOd25ahjmWic8q+krvrgLP5jGMJ/AQyhiU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TodoBlazor.bundle.scp.css"
@@ -6210,6 +6483,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\cq6y3ifck1-cy00pk0ov5.gz",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions#[.{fingerprint=cy00pk0ov5}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.ConfigurationExtensions.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rurxmnx4sk",
+      "Integrity": "vVK5usUA2RyrmVM0ssYS0valrwSuLjqcuwDQBGpx6G4=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.ConfigurationExtensions.wasm"
     },
     {
       "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\crabs9n2zk-kvh8zhhe4g.gz",
@@ -6905,12 +7199,12 @@
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Text.Encoding.CodePages.wasm"
     },
     {
-      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\iobevbctw8-41yhtf6iq1.gz",
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\iobevbctw8-am4h59h2mr.gz",
       "SourceId": "TodoBlazor",
       "SourceType": "Computed",
       "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/TodoBlazor#[.{fingerprint=41yhtf6iq1}]!.wasm.gz",
+      "RelativePath": "_framework/TodoBlazor#[.{fingerprint=am4h59h2mr}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6919,8 +7213,8 @@
       "RelatedAsset": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\TodoBlazor.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "31n3509tzk",
-      "Integrity": "V4w6GfGG6jJ+8cisHtgrN7zk5si7pNjwLpN6WobUYKM=",
+      "Fingerprint": "msvyizqdiw",
+      "Integrity": "dnOtVGALO7IQ39LXvo4vL6YL6Epit67Z9gvn/uepkag=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\TodoBlazor.wasm"
@@ -7491,6 +7785,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Security.Cryptography.Encoding.wasm"
+    },
+    {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\lv1ci8o04x-12n6dz54qr.gz",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage#[.{fingerprint=12n6dz54qr}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "mvc2yakc5l",
+      "Integrity": "srf0i7f1ZBMYoZk8GKU7atGmbtuLFcsFUI2QjHPSEMY=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm"
     },
     {
       "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\lwiwxin8ig-thhw8cz9wu.gz",
@@ -8228,6 +8543,27 @@
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Net.NameResolution.wasm"
     },
     {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\qcx58q2nrb-qkbufwhni2.gz",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json#[.{fingerprint=qkbufwhni2}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Newtonsoft.Json.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "dplntgjrkh",
+      "Integrity": "X8U2T/OMTnT5XFA7QXItOn5aXXRPL+7KogZtAQR23o8=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Newtonsoft.Json.wasm"
+    },
+    {
       "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\qkzi3ha1of-bkgmtc11ee.gz",
       "SourceId": "TodoBlazor",
       "SourceType": "Computed",
@@ -8310,6 +8646,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Text.Json.wasm"
+    },
+    {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\qxr2out43c-4e28mmhchr.gz",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Diagnostics#[.{fingerprint=4e28mmhchr}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Diagnostics.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jbdsw9jwm8",
+      "Integrity": "kbmbDDVuPjukqdghnkriONzccteS+YEczF8H622LGSs=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Diagnostics.wasm"
     },
     {
       "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\qye622kyhn-c2jlpeoesf.gz",
@@ -8396,12 +8753,12 @@
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Threading.Timer.wasm"
     },
     {
-      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\rxcbe15bxg-x7v1vmxdqz.gz",
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\rxcbe15bxg-6gtd6jk8k5.gz",
       "SourceId": "TodoBlazor",
       "SourceType": "Computed",
       "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/TodoBlazor#[.{fingerprint=x7v1vmxdqz}]!.pdb.gz",
+      "RelativePath": "_framework/TodoBlazor#[.{fingerprint=6gtd6jk8k5}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8410,8 +8767,8 @@
       "RelatedAsset": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\TodoBlazor.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "shb6w73xlx",
-      "Integrity": "UHQgzXZSfkPmcjDq5mhTSf4/T8on6c2GOUEjWk5jgNQ=",
+      "Fingerprint": "doi67hmyhw",
+      "Integrity": "8zDSXtt3mrXKSZVwqqwj3GLXblzUvmQBdFs16zzKU38=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\TodoBlazor.pdb"
@@ -8457,6 +8814,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\dotnet.runtime.js"
+    },
+    {
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\sp1pdjbe05-19whzah939.gz",
+      "SourceId": "TodoBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http#[.{fingerprint=19whzah939}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ptmwogayc7",
+      "Integrity": "jbO7OGNvQARgD4bKfQvp7TISmOObBLRAKFuGA8SkrJs=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.wasm"
     },
     {
       "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\stfohr6p5g-d7shbmvgxk.gz",
@@ -9152,12 +9530,12 @@
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\xafkr2y1eo-h1e6qj2uyw.gz",
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\xafkr2y1eo-rir08mxyu4.gz",
       "SourceId": "TodoBlazor",
       "SourceType": "Computed",
       "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "TodoBlazor#[.{fingerprint=h1e6qj2uyw}]?.styles.css.gz",
+      "RelativePath": "TodoBlazor#[.{fingerprint=rir08mxyu4}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -9166,8 +9544,8 @@
       "RelatedAsset": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TodoBlazor.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zm6mz5z560",
-      "Integrity": "5Y1NU1EWnl7+sgpX3HUMVF71ySc9p4dGAumUXoC4OYM=",
+      "Fingerprint": "ncgwxft2it",
+      "Integrity": "OTj03yIqrNOd25ahjmWic8q+krvrgLP5jGMJ/AQyhiU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TodoBlazor.styles.css"
@@ -9278,7 +9656,7 @@
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
     },
     {
-      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\yascorrw9u-zn3fvkk25r.gz",
+      "Identity": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\yascorrw9u-t55hm7yg7x.gz",
       "SourceId": "TodoBlazor",
       "SourceType": "Computed",
       "ContentRoot": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\",
@@ -9292,8 +9670,8 @@
       "RelatedAsset": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "05ovyfwot8",
-      "Integrity": "9IlCdo54VA44lvwJQBTboHg+r3xvx7VVj8TOTRBnqvo=",
+      "Fingerprint": "zrdpvc498x",
+      "Integrity": "AT+7LctmR0TGG1oJ9h5zDKw2YSfu2Ej5jQjqD27aCSM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -9628,8 +10006,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "h1e6qj2uyw",
-      "Integrity": "a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4=",
+      "Fingerprint": "rir08mxyu4",
+      "Integrity": "rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TodoBlazor.styles.css"
@@ -9649,8 +10027,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "h1e6qj2uyw",
-      "Integrity": "a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4=",
+      "Fingerprint": "rir08mxyu4",
+      "Integrity": "rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TodoBlazor.bundle.scp.css"
@@ -10697,7 +11075,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "39176"
+          "Value": "41069"
         },
         {
           "Name": "Content-Type",
@@ -10705,11 +11083,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T8+0OCVryqMM+K7Amn+TdXA7tVH5iFhx1uRvIChEm2E=\""
+          "Value": "\"YaYJaNx/yjUC8VaX20sWUjwGAZi/7PFDa9Z3ZPZet5E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 04:41:25 GMT"
+          "Value": "Wed, 18 Dec 2024 17:01:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10719,18 +11097,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T8+0OCVryqMM+K7Amn+TdXA7tVH5iFhx1uRvIChEm2E="
+          "Value": "sha256-YaYJaNx/yjUC8VaX20sWUjwGAZi/7PFDa9Z3ZPZet5E="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\yascorrw9u-zn3fvkk25r.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\yascorrw9u-t55hm7yg7x.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081221572"
+          "Quality": "0.000077760498"
         }
       ],
       "ResponseHeaders": [
@@ -10740,15 +11118,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12311"
+          "Value": "12859"
         },
         {
           "Name": "ETag",
-          "Value": "\"9IlCdo54VA44lvwJQBTboHg+r3xvx7VVj8TOTRBnqvo=\""
+          "Value": "\"AT+7LctmR0TGG1oJ9h5zDKw2YSfu2Ej5jQjqD27aCSM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 03:58:31 GMT"
+          "Value": "Wed, 18 Dec 2024 16:52:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10768,19 +11146,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"T8+0OCVryqMM+K7Amn+TdXA7tVH5iFhx1uRvIChEm2E=\""
+          "Value": "W/\"YaYJaNx/yjUC8VaX20sWUjwGAZi/7PFDa9Z3ZPZet5E=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T8+0OCVryqMM+K7Amn+TdXA7tVH5iFhx1uRvIChEm2E="
+          "Value": "sha256-YaYJaNx/yjUC8VaX20sWUjwGAZi/7PFDa9Z3ZPZet5E="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\yascorrw9u-zn3fvkk25r.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\yascorrw9u-t55hm7yg7x.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10789,7 +11167,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12311"
+          "Value": "12859"
         },
         {
           "Name": "Content-Type",
@@ -10797,11 +11175,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9IlCdo54VA44lvwJQBTboHg+r3xvx7VVj8TOTRBnqvo=\""
+          "Value": "\"AT+7LctmR0TGG1oJ9h5zDKw2YSfu2Ej5jQjqD27aCSM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 03:58:31 GMT"
+          "Value": "Wed, 18 Dec 2024 16:52:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10819,7 +11197,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9IlCdo54VA44lvwJQBTboHg+r3xvx7VVj8TOTRBnqvo="
+          "Value": "sha256-AT+7LctmR0TGG1oJ9h5zDKw2YSfu2Ej5jQjqD27aCSM="
         }
       ]
     },
@@ -10957,6 +11335,602 @@
         {
           "Name": "integrity",
           "Value": "sha256-sY4IWGqQgeKuprpn/qHj7SdzgH0xrXP4x7561sR47vI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.LocalStorage.12n6dz54qr.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "12n6dz54qr"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Blazored.LocalStorage.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.LocalStorage.12n6dz54qr.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\lv1ci8o04x-12n6dz54qr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000072290899"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13832"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"srf0i7f1ZBMYoZk8GKU7atGmbtuLFcsFUI2QjHPSEMY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "12n6dz54qr"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Blazored.LocalStorage.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.LocalStorage.12n6dz54qr.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\lv1ci8o04x-12n6dz54qr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"srf0i7f1ZBMYoZk8GKU7atGmbtuLFcsFUI2QjHPSEMY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "12n6dz54qr"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Blazored.LocalStorage.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-srf0i7f1ZBMYoZk8GKU7atGmbtuLFcsFUI2QjHPSEMY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.LocalStorage.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.LocalStorage.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\lv1ci8o04x-12n6dz54qr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000072290899"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13832"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"srf0i7f1ZBMYoZk8GKU7atGmbtuLFcsFUI2QjHPSEMY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.LocalStorage.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\lv1ci8o04x-12n6dz54qr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"srf0i7f1ZBMYoZk8GKU7atGmbtuLFcsFUI2QjHPSEMY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-srf0i7f1ZBMYoZk8GKU7atGmbtuLFcsFUI2QjHPSEMY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.SessionStorage.nmocnrh0nf.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Blazored.SessionStorage.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"USXXmlZp/+6sydakLBWsU7ieGbqCqqK4+8uTGUPiZK8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nmocnrh0nf"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Blazored.SessionStorage.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-USXXmlZp/+6sydakLBWsU7ieGbqCqqK4+8uTGUPiZK8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.SessionStorage.nmocnrh0nf.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\932cf8phwu-nmocnrh0nf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000127275041"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7856"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o2PLHFxoGgJYt711aYRfTytCLOSY3DbPDLLP6+wjtrg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"USXXmlZp/+6sydakLBWsU7ieGbqCqqK4+8uTGUPiZK8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nmocnrh0nf"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Blazored.SessionStorage.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-USXXmlZp/+6sydakLBWsU7ieGbqCqqK4+8uTGUPiZK8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.SessionStorage.nmocnrh0nf.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\932cf8phwu-nmocnrh0nf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o2PLHFxoGgJYt711aYRfTytCLOSY3DbPDLLP6+wjtrg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nmocnrh0nf"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Blazored.SessionStorage.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o2PLHFxoGgJYt711aYRfTytCLOSY3DbPDLLP6+wjtrg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.SessionStorage.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Blazored.SessionStorage.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"USXXmlZp/+6sydakLBWsU7ieGbqCqqK4+8uTGUPiZK8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-USXXmlZp/+6sydakLBWsU7ieGbqCqqK4+8uTGUPiZK8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.SessionStorage.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\932cf8phwu-nmocnrh0nf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000127275041"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7856"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o2PLHFxoGgJYt711aYRfTytCLOSY3DbPDLLP6+wjtrg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"USXXmlZp/+6sydakLBWsU7ieGbqCqqK4+8uTGUPiZK8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-USXXmlZp/+6sydakLBWsU7ieGbqCqqK4+8uTGUPiZK8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.SessionStorage.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\932cf8phwu-nmocnrh0nf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o2PLHFxoGgJYt711aYRfTytCLOSY3DbPDLLP6+wjtrg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o2PLHFxoGgJYt711aYRfTytCLOSY3DbPDLLP6+wjtrg="
         }
       ]
     },
@@ -13937,6 +14911,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-37//4h7C2oAVaX/9ocMj1XLPmpsjZdUHVKWDvJn9wfw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.Authorization.5ja82b9mxc.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22293"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r7rvOIT/7U2j/hWzOguOLut5faxH/7SHPfhDI2qDyfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:00:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ja82b9mxc"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r7rvOIT/7U2j/hWzOguOLut5faxH/7SHPfhDI2qDyfU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.Authorization.5ja82b9mxc.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\0rb7ms2j34-5ja82b9mxc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000099235884"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10076"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"80M1CNLxcoaF0tJiGERJVL76pq4+cPSskY+4ja+Jq5U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:00:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"r7rvOIT/7U2j/hWzOguOLut5faxH/7SHPfhDI2qDyfU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ja82b9mxc"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r7rvOIT/7U2j/hWzOguOLut5faxH/7SHPfhDI2qDyfU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.Authorization.5ja82b9mxc.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\0rb7ms2j34-5ja82b9mxc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"80M1CNLxcoaF0tJiGERJVL76pq4+cPSskY+4ja+Jq5U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:00:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ja82b9mxc"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-80M1CNLxcoaF0tJiGERJVL76pq4+cPSskY+4ja+Jq5U="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22293"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r7rvOIT/7U2j/hWzOguOLut5faxH/7SHPfhDI2qDyfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:00:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r7rvOIT/7U2j/hWzOguOLut5faxH/7SHPfhDI2qDyfU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\0rb7ms2j34-5ja82b9mxc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000099235884"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10076"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"80M1CNLxcoaF0tJiGERJVL76pq4+cPSskY+4ja+Jq5U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:00:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"r7rvOIT/7U2j/hWzOguOLut5faxH/7SHPfhDI2qDyfU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r7rvOIT/7U2j/hWzOguOLut5faxH/7SHPfhDI2qDyfU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\0rb7ms2j34-5ja82b9mxc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"80M1CNLxcoaF0tJiGERJVL76pq4+cPSskY+4ja+Jq5U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:00:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-80M1CNLxcoaF0tJiGERJVL76pq4+cPSskY+4ja+Jq5U="
         }
       ]
     },
@@ -17815,6 +19087,602 @@
       ]
     },
     {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.4e28mmhchr.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Diagnostics.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26389"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5EMkwnYuvQnQE5Ip/R/w1es7yBkVWIU1omfSovoLFNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4e28mmhchr"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Diagnostics.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5EMkwnYuvQnQE5Ip/R/w1es7yBkVWIU1omfSovoLFNQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.4e28mmhchr.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\qxr2out43c-4e28mmhchr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000078795997"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12690"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kbmbDDVuPjukqdghnkriONzccteS+YEczF8H622LGSs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5EMkwnYuvQnQE5Ip/R/w1es7yBkVWIU1omfSovoLFNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4e28mmhchr"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Diagnostics.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5EMkwnYuvQnQE5Ip/R/w1es7yBkVWIU1omfSovoLFNQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.4e28mmhchr.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\qxr2out43c-4e28mmhchr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kbmbDDVuPjukqdghnkriONzccteS+YEczF8H622LGSs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4e28mmhchr"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Diagnostics.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kbmbDDVuPjukqdghnkriONzccteS+YEczF8H622LGSs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.mdr4398mwf.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Diagnostics.Abstractions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21269"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZvWhi/8GakaMIepq3seMueSO7FueT6jwwWGlhmpdTxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mdr4398mwf"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZvWhi/8GakaMIepq3seMueSO7FueT6jwwWGlhmpdTxA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.mdr4398mwf.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\8kz33rjsnu-mdr4398mwf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000111544897"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8964"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eWHLLf0JcLEvmx7jRm+9udTYZwBzQ6trqdd4iuT486c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZvWhi/8GakaMIepq3seMueSO7FueT6jwwWGlhmpdTxA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mdr4398mwf"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZvWhi/8GakaMIepq3seMueSO7FueT6jwwWGlhmpdTxA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.mdr4398mwf.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\8kz33rjsnu-mdr4398mwf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8964"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eWHLLf0JcLEvmx7jRm+9udTYZwBzQ6trqdd4iuT486c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mdr4398mwf"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eWHLLf0JcLEvmx7jRm+9udTYZwBzQ6trqdd4iuT486c="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Diagnostics.Abstractions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21269"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZvWhi/8GakaMIepq3seMueSO7FueT6jwwWGlhmpdTxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZvWhi/8GakaMIepq3seMueSO7FueT6jwwWGlhmpdTxA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\8kz33rjsnu-mdr4398mwf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000111544897"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8964"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eWHLLf0JcLEvmx7jRm+9udTYZwBzQ6trqdd4iuT486c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZvWhi/8GakaMIepq3seMueSO7FueT6jwwWGlhmpdTxA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZvWhi/8GakaMIepq3seMueSO7FueT6jwwWGlhmpdTxA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\8kz33rjsnu-mdr4398mwf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8964"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eWHLLf0JcLEvmx7jRm+9udTYZwBzQ6trqdd4iuT486c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eWHLLf0JcLEvmx7jRm+9udTYZwBzQ6trqdd4iuT486c="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Diagnostics.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26389"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5EMkwnYuvQnQE5Ip/R/w1es7yBkVWIU1omfSovoLFNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5EMkwnYuvQnQE5Ip/R/w1es7yBkVWIU1omfSovoLFNQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\qxr2out43c-4e28mmhchr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000078795997"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12690"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kbmbDDVuPjukqdghnkriONzccteS+YEczF8H622LGSs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5EMkwnYuvQnQE5Ip/R/w1es7yBkVWIU1omfSovoLFNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5EMkwnYuvQnQE5Ip/R/w1es7yBkVWIU1omfSovoLFNQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\qxr2out43c-4e28mmhchr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kbmbDDVuPjukqdghnkriONzccteS+YEczF8H622LGSs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kbmbDDVuPjukqdghnkriONzccteS+YEczF8H622LGSs="
+        }
+      ]
+    },
+    {
       "Route": "_framework/Microsoft.Extensions.FileProviders.Abstractions.4ewk3ipqll.wasm",
       "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.wasm",
       "Selectors": [],
@@ -18709,6 +20577,304 @@
       ]
     },
     {
+      "Route": "_framework/Microsoft.Extensions.Http.19whzah939.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82197"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hXiPpWPveO5qsdEW2Gv44+2FTo1+h44csvRy7ob7mSM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "19whzah939"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Http.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hXiPpWPveO5qsdEW2Gv44+2FTo1+h44csvRy7ob7mSM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Http.19whzah939.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\sp1pdjbe05-19whzah939.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000028899228"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34602"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jbO7OGNvQARgD4bKfQvp7TISmOObBLRAKFuGA8SkrJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hXiPpWPveO5qsdEW2Gv44+2FTo1+h44csvRy7ob7mSM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "19whzah939"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Http.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hXiPpWPveO5qsdEW2Gv44+2FTo1+h44csvRy7ob7mSM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Http.19whzah939.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\sp1pdjbe05-19whzah939.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34602"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jbO7OGNvQARgD4bKfQvp7TISmOObBLRAKFuGA8SkrJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "19whzah939"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Http.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jbO7OGNvQARgD4bKfQvp7TISmOObBLRAKFuGA8SkrJs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Http.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82197"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hXiPpWPveO5qsdEW2Gv44+2FTo1+h44csvRy7ob7mSM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hXiPpWPveO5qsdEW2Gv44+2FTo1+h44csvRy7ob7mSM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Http.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\sp1pdjbe05-19whzah939.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000028899228"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34602"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jbO7OGNvQARgD4bKfQvp7TISmOObBLRAKFuGA8SkrJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hXiPpWPveO5qsdEW2Gv44+2FTo1+h44csvRy7ob7mSM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hXiPpWPveO5qsdEW2Gv44+2FTo1+h44csvRy7ob7mSM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Http.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\sp1pdjbe05-19whzah939.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34602"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jbO7OGNvQARgD4bKfQvp7TISmOObBLRAKFuGA8SkrJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jbO7OGNvQARgD4bKfQvp7TISmOObBLRAKFuGA8SkrJs="
+        }
+      ]
+    },
+    {
       "Route": "_framework/Microsoft.Extensions.Logging.Abstractions.w8ltos2ii6.wasm",
       "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.wasm",
       "Selectors": [],
@@ -19301,6 +21467,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-I2BTFgqmlupUZPO2jTtA5GwISAsb5ClObiLGRh14Tjk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.cy00pk0ov5.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.ConfigurationExtensions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LHJxyJTXngS15YKxbxoWeE9c1ppPN5KbksH4t69pycs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cy00pk0ov5"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LHJxyJTXngS15YKxbxoWeE9c1ppPN5KbksH4t69pycs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.cy00pk0ov5.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\cq6y3ifck1-cy00pk0ov5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000180799132"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5530"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vVK5usUA2RyrmVM0ssYS0valrwSuLjqcuwDQBGpx6G4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LHJxyJTXngS15YKxbxoWeE9c1ppPN5KbksH4t69pycs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cy00pk0ov5"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LHJxyJTXngS15YKxbxoWeE9c1ppPN5KbksH4t69pycs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.cy00pk0ov5.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\cq6y3ifck1-cy00pk0ov5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5530"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vVK5usUA2RyrmVM0ssYS0valrwSuLjqcuwDQBGpx6G4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cy00pk0ov5"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vVK5usUA2RyrmVM0ssYS0valrwSuLjqcuwDQBGpx6G4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.ConfigurationExtensions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LHJxyJTXngS15YKxbxoWeE9c1ppPN5KbksH4t69pycs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LHJxyJTXngS15YKxbxoWeE9c1ppPN5KbksH4t69pycs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\cq6y3ifck1-cy00pk0ov5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000180799132"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5530"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vVK5usUA2RyrmVM0ssYS0valrwSuLjqcuwDQBGpx6G4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LHJxyJTXngS15YKxbxoWeE9c1ppPN5KbksH4t69pycs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LHJxyJTXngS15YKxbxoWeE9c1ppPN5KbksH4t69pycs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\cq6y3ifck1-cy00pk0ov5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5530"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vVK5usUA2RyrmVM0ssYS0valrwSuLjqcuwDQBGpx6G4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:44:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vVK5usUA2RyrmVM0ssYS0valrwSuLjqcuwDQBGpx6G4="
         }
       ]
     },
@@ -22281,6 +24745,602 @@
         {
           "Name": "integrity",
           "Value": "sha256-gKCUQ47asODKQysGw6nIkKF1gSq9HITP+VAEpTaAhdk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Newtonsoft.Json.qkbufwhni2.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Newtonsoft.Json.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "700181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:16:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qkbufwhni2"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Newtonsoft.Json.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Newtonsoft.Json.qkbufwhni2.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\qcx58q2nrb-qkbufwhni2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000003776378"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "264803"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X8U2T/OMTnT5XFA7QXItOn5aXXRPL+7KogZtAQR23o8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:16:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qkbufwhni2"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Newtonsoft.Json.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Newtonsoft.Json.qkbufwhni2.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\qcx58q2nrb-qkbufwhni2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "264803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X8U2T/OMTnT5XFA7QXItOn5aXXRPL+7KogZtAQR23o8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:16:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qkbufwhni2"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Newtonsoft.Json.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X8U2T/OMTnT5XFA7QXItOn5aXXRPL+7KogZtAQR23o8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Newtonsoft.Json.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Newtonsoft.Json.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "700181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:16:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Newtonsoft.Json.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\qcx58q2nrb-qkbufwhni2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000003776378"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "264803"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X8U2T/OMTnT5XFA7QXItOn5aXXRPL+7KogZtAQR23o8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:16:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Newtonsoft.Json.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\qcx58q2nrb-qkbufwhni2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "264803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X8U2T/OMTnT5XFA7QXItOn5aXXRPL+7KogZtAQR23o8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:16:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X8U2T/OMTnT5XFA7QXItOn5aXXRPL+7KogZtAQR23o8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/ProtectedLocalStore.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\ProtectedLocalStore.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cfE/dVsw+3qWE/guJl+VNA7zv/6B9+FfZ2TOeOB1+As=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cfE/dVsw+3qWE/guJl+VNA7zv/6B9+FfZ2TOeOB1+As="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/ProtectedLocalStore.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\5sj9kr8m0a-zn3ggy42wi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000169118891"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5912"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/byERs5KjmNYkJBBJrdDdcTsylSPkzhAq8GfivZLyxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"cfE/dVsw+3qWE/guJl+VNA7zv/6B9+FfZ2TOeOB1+As=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cfE/dVsw+3qWE/guJl+VNA7zv/6B9+FfZ2TOeOB1+As="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/ProtectedLocalStore.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\5sj9kr8m0a-zn3ggy42wi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/byERs5KjmNYkJBBJrdDdcTsylSPkzhAq8GfivZLyxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/byERs5KjmNYkJBBJrdDdcTsylSPkzhAq8GfivZLyxc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/ProtectedLocalStore.zn3ggy42wi.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\ProtectedLocalStore.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cfE/dVsw+3qWE/guJl+VNA7zv/6B9+FfZ2TOeOB1+As=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zn3ggy42wi"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/ProtectedLocalStore.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cfE/dVsw+3qWE/guJl+VNA7zv/6B9+FfZ2TOeOB1+As="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/ProtectedLocalStore.zn3ggy42wi.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\5sj9kr8m0a-zn3ggy42wi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000169118891"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5912"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/byERs5KjmNYkJBBJrdDdcTsylSPkzhAq8GfivZLyxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"cfE/dVsw+3qWE/guJl+VNA7zv/6B9+FfZ2TOeOB1+As=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zn3ggy42wi"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/ProtectedLocalStore.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cfE/dVsw+3qWE/guJl+VNA7zv/6B9+FfZ2TOeOB1+As="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/ProtectedLocalStore.zn3ggy42wi.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\5sj9kr8m0a-zn3ggy42wi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/byERs5KjmNYkJBBJrdDdcTsylSPkzhAq8GfivZLyxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:14:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zn3ggy42wi"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/ProtectedLocalStore.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/byERs5KjmNYkJBBJrdDdcTsylSPkzhAq8GfivZLyxc="
         }
       ]
     },
@@ -70263,168 +73323,7 @@
       ]
     },
     {
-      "Route": "_framework/TodoBlazor.41yhtf6iq1.wasm",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\TodoBlazor.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "54037"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iH+8aCOox81ySl3G/jy85+7fYqMJu9p8wQX3AAKxSl0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 04:41:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "41yhtf6iq1"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/TodoBlazor.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-iH+8aCOox81ySl3G/jy85+7fYqMJu9p8wQX3AAKxSl0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TodoBlazor.41yhtf6iq1.wasm",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\iobevbctw8-41yhtf6iq1.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000052896059"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18904"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"V4w6GfGG6jJ+8cisHtgrN7zk5si7pNjwLpN6WobUYKM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 04:41:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"iH+8aCOox81ySl3G/jy85+7fYqMJu9p8wQX3AAKxSl0=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "41yhtf6iq1"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/TodoBlazor.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-iH+8aCOox81ySl3G/jy85+7fYqMJu9p8wQX3AAKxSl0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TodoBlazor.41yhtf6iq1.wasm.gz",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\iobevbctw8-41yhtf6iq1.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18904"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"V4w6GfGG6jJ+8cisHtgrN7zk5si7pNjwLpN6WobUYKM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 04:41:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "41yhtf6iq1"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/TodoBlazor.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-V4w6GfGG6jJ+8cisHtgrN7zk5si7pNjwLpN6WobUYKM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TodoBlazor.pdb",
+      "Route": "_framework/TodoBlazor.6gtd6jk8k5.pdb",
       "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\TodoBlazor.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -70434,7 +73333,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "44236"
+          "Value": "48228"
         },
         {
           "Name": "Content-Type",
@@ -70442,285 +73341,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TTtGr3nN7HATrdOLXCav+wjffmALrwt4MRzk857dl14=\""
+          "Value": "\"VggF4BOB3XkqcWvjUaIeeLFuyEP1LIVMqSXxUTro14U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 04:41:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-TTtGr3nN7HATrdOLXCav+wjffmALrwt4MRzk857dl14="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TodoBlazor.pdb",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\rxcbe15bxg-x7v1vmxdqz.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000029197080"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "34249"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"UHQgzXZSfkPmcjDq5mhTSf4/T8on6c2GOUEjWk5jgNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 04:41:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"TTtGr3nN7HATrdOLXCav+wjffmALrwt4MRzk857dl14=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-TTtGr3nN7HATrdOLXCav+wjffmALrwt4MRzk857dl14="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TodoBlazor.pdb.gz",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\rxcbe15bxg-x7v1vmxdqz.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "34249"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"UHQgzXZSfkPmcjDq5mhTSf4/T8on6c2GOUEjWk5jgNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 04:41:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-UHQgzXZSfkPmcjDq5mhTSf4/T8on6c2GOUEjWk5jgNQ="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TodoBlazor.wasm",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\TodoBlazor.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "54037"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iH+8aCOox81ySl3G/jy85+7fYqMJu9p8wQX3AAKxSl0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 04:41:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-iH+8aCOox81ySl3G/jy85+7fYqMJu9p8wQX3AAKxSl0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TodoBlazor.wasm",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\iobevbctw8-41yhtf6iq1.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000052896059"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18904"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"V4w6GfGG6jJ+8cisHtgrN7zk5si7pNjwLpN6WobUYKM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 04:41:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"iH+8aCOox81ySl3G/jy85+7fYqMJu9p8wQX3AAKxSl0=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-iH+8aCOox81ySl3G/jy85+7fYqMJu9p8wQX3AAKxSl0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TodoBlazor.wasm.gz",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\iobevbctw8-41yhtf6iq1.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18904"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"V4w6GfGG6jJ+8cisHtgrN7zk5si7pNjwLpN6WobUYKM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 04:41:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-V4w6GfGG6jJ+8cisHtgrN7zk5si7pNjwLpN6WobUYKM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TodoBlazor.x7v1vmxdqz.pdb",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\TodoBlazor.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "44236"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TTtGr3nN7HATrdOLXCav+wjffmALrwt4MRzk857dl14=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 04:41:25 GMT"
+          "Value": "Wed, 18 Dec 2024 17:01:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70730,7 +73355,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x7v1vmxdqz"
+          "Value": "6gtd6jk8k5"
         },
         {
           "Name": "label",
@@ -70738,18 +73363,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TTtGr3nN7HATrdOLXCav+wjffmALrwt4MRzk857dl14="
+          "Value": "sha256-VggF4BOB3XkqcWvjUaIeeLFuyEP1LIVMqSXxUTro14U="
         }
       ]
     },
     {
-      "Route": "_framework/TodoBlazor.x7v1vmxdqz.pdb",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\rxcbe15bxg-x7v1vmxdqz.gz",
+      "Route": "_framework/TodoBlazor.6gtd6jk8k5.pdb",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\rxcbe15bxg-6gtd6jk8k5.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000029197080"
+          "Quality": "0.000027377758"
         }
       ],
       "ResponseHeaders": [
@@ -70759,15 +73384,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "34249"
+          "Value": "36525"
         },
         {
           "Name": "ETag",
-          "Value": "\"UHQgzXZSfkPmcjDq5mhTSf4/T8on6c2GOUEjWk5jgNQ=\""
+          "Value": "\"8zDSXtt3mrXKSZVwqqwj3GLXblzUvmQBdFs16zzKU38=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 04:41:25 GMT"
+          "Value": "Wed, 18 Dec 2024 17:01:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70787,13 +73412,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"TTtGr3nN7HATrdOLXCav+wjffmALrwt4MRzk857dl14=\""
+          "Value": "W/\"VggF4BOB3XkqcWvjUaIeeLFuyEP1LIVMqSXxUTro14U=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x7v1vmxdqz"
+          "Value": "6gtd6jk8k5"
         },
         {
           "Name": "label",
@@ -70801,13 +73426,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TTtGr3nN7HATrdOLXCav+wjffmALrwt4MRzk857dl14="
+          "Value": "sha256-VggF4BOB3XkqcWvjUaIeeLFuyEP1LIVMqSXxUTro14U="
         }
       ]
     },
     {
-      "Route": "_framework/TodoBlazor.x7v1vmxdqz.pdb.gz",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\rxcbe15bxg-x7v1vmxdqz.gz",
+      "Route": "_framework/TodoBlazor.6gtd6jk8k5.pdb.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\rxcbe15bxg-6gtd6jk8k5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -70816,7 +73441,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "34249"
+          "Value": "36525"
         },
         {
           "Name": "Content-Type",
@@ -70824,11 +73449,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UHQgzXZSfkPmcjDq5mhTSf4/T8on6c2GOUEjWk5jgNQ=\""
+          "Value": "\"8zDSXtt3mrXKSZVwqqwj3GLXblzUvmQBdFs16zzKU38=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 04:41:25 GMT"
+          "Value": "Wed, 18 Dec 2024 17:01:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70846,7 +73471,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x7v1vmxdqz"
+          "Value": "6gtd6jk8k5"
         },
         {
           "Name": "label",
@@ -70854,7 +73479,442 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UHQgzXZSfkPmcjDq5mhTSf4/T8on6c2GOUEjWk5jgNQ="
+          "Value": "sha256-8zDSXtt3mrXKSZVwqqwj3GLXblzUvmQBdFs16zzKU38="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TodoBlazor.am4h59h2mr.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\TodoBlazor.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oqqKUlab4/MN9ge+0wYkqMsv9j9DE4oumwYUNKQlsGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:52:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "am4h59h2mr"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/TodoBlazor.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oqqKUlab4/MN9ge+0wYkqMsv9j9DE4oumwYUNKQlsGQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TodoBlazor.am4h59h2mr.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\iobevbctw8-am4h59h2mr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000040117142"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24926"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dnOtVGALO7IQ39LXvo4vL6YL6Epit67Z9gvn/uepkag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:52:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"oqqKUlab4/MN9ge+0wYkqMsv9j9DE4oumwYUNKQlsGQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "am4h59h2mr"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/TodoBlazor.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oqqKUlab4/MN9ge+0wYkqMsv9j9DE4oumwYUNKQlsGQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TodoBlazor.am4h59h2mr.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\iobevbctw8-am4h59h2mr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dnOtVGALO7IQ39LXvo4vL6YL6Epit67Z9gvn/uepkag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:52:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "am4h59h2mr"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/TodoBlazor.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dnOtVGALO7IQ39LXvo4vL6YL6Epit67Z9gvn/uepkag="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TodoBlazor.pdb",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\TodoBlazor.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VggF4BOB3XkqcWvjUaIeeLFuyEP1LIVMqSXxUTro14U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 17:01:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VggF4BOB3XkqcWvjUaIeeLFuyEP1LIVMqSXxUTro14U="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TodoBlazor.pdb",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\rxcbe15bxg-6gtd6jk8k5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000027377758"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36525"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8zDSXtt3mrXKSZVwqqwj3GLXblzUvmQBdFs16zzKU38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 17:01:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"VggF4BOB3XkqcWvjUaIeeLFuyEP1LIVMqSXxUTro14U=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VggF4BOB3XkqcWvjUaIeeLFuyEP1LIVMqSXxUTro14U="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TodoBlazor.pdb.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\rxcbe15bxg-6gtd6jk8k5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8zDSXtt3mrXKSZVwqqwj3GLXblzUvmQBdFs16zzKU38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 17:01:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8zDSXtt3mrXKSZVwqqwj3GLXblzUvmQBdFs16zzKU38="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TodoBlazor.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\TodoBlazor.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oqqKUlab4/MN9ge+0wYkqMsv9j9DE4oumwYUNKQlsGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:52:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oqqKUlab4/MN9ge+0wYkqMsv9j9DE4oumwYUNKQlsGQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TodoBlazor.wasm",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\iobevbctw8-am4h59h2mr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000040117142"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24926"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dnOtVGALO7IQ39LXvo4vL6YL6Epit67Z9gvn/uepkag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:52:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"oqqKUlab4/MN9ge+0wYkqMsv9j9DE4oumwYUNKQlsGQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oqqKUlab4/MN9ge+0wYkqMsv9j9DE4oumwYUNKQlsGQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TodoBlazor.wasm.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\iobevbctw8-am4h59h2mr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dnOtVGALO7IQ39LXvo4vL6YL6Epit67Z9gvn/uepkag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:52:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dnOtVGALO7IQ39LXvo4vL6YL6Epit67Z9gvn/uepkag="
         }
       ]
     },
@@ -85328,12 +88388,12 @@
     },
     {
       "Route": "TodoBlazor.bundle.scp.css",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\9mheq6a2v3-h1e6qj2uyw.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\9mheq6a2v3-rir08mxyu4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000713775874"
+          "Quality": "0.000570776256"
         }
       ],
       "ResponseHeaders": [
@@ -85343,15 +88403,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1400"
+          "Value": "1751"
         },
         {
           "Name": "ETag",
-          "Value": "\"5Y1NU1EWnl7+sgpX3HUMVF71ySc9p4dGAumUXoC4OYM=\""
+          "Value": "\"OTj03yIqrNOd25ahjmWic8q+krvrgLP5jGMJ/AQyhiU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 05:05:17 GMT"
+          "Value": "Wed, 18 Dec 2024 16:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85371,13 +88431,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4=\""
+          "Value": "W/\"rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4="
+          "Value": "sha256-rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y="
         }
       ]
     },
@@ -85392,7 +88452,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4653"
+          "Value": "6104"
         },
         {
           "Name": "Content-Type",
@@ -85400,11 +88460,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4=\""
+          "Value": "\"rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 05:05:17 GMT"
+          "Value": "Wed, 18 Dec 2024 16:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85414,13 +88474,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4="
+          "Value": "sha256-rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y="
         }
       ]
     },
     {
       "Route": "TodoBlazor.bundle.scp.css.gz",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\9mheq6a2v3-h1e6qj2uyw.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\9mheq6a2v3-rir08mxyu4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -85429,7 +88489,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1400"
+          "Value": "1751"
         },
         {
           "Name": "Content-Type",
@@ -85437,11 +88497,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5Y1NU1EWnl7+sgpX3HUMVF71ySc9p4dGAumUXoC4OYM=\""
+          "Value": "\"OTj03yIqrNOd25ahjmWic8q+krvrgLP5jGMJ/AQyhiU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 05:05:17 GMT"
+          "Value": "Wed, 18 Dec 2024 16:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85459,18 +88519,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5Y1NU1EWnl7+sgpX3HUMVF71ySc9p4dGAumUXoC4OYM="
+          "Value": "sha256-OTj03yIqrNOd25ahjmWic8q+krvrgLP5jGMJ/AQyhiU="
         }
       ]
     },
     {
-      "Route": "TodoBlazor.h1e6qj2uyw.bundle.scp.css",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\9mheq6a2v3-h1e6qj2uyw.gz",
+      "Route": "TodoBlazor.rir08mxyu4.bundle.scp.css",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\9mheq6a2v3-rir08mxyu4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000713775874"
+          "Quality": "0.000570776256"
         }
       ],
       "ResponseHeaders": [
@@ -85480,15 +88540,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1400"
+          "Value": "1751"
         },
         {
           "Name": "ETag",
-          "Value": "\"5Y1NU1EWnl7+sgpX3HUMVF71ySc9p4dGAumUXoC4OYM=\""
+          "Value": "\"OTj03yIqrNOd25ahjmWic8q+krvrgLP5jGMJ/AQyhiU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 05:05:17 GMT"
+          "Value": "Wed, 18 Dec 2024 16:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85508,13 +88568,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4=\""
+          "Value": "W/\"rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h1e6qj2uyw"
+          "Value": "rir08mxyu4"
         },
         {
           "Name": "label",
@@ -85522,12 +88582,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4="
+          "Value": "sha256-rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y="
         }
       ]
     },
     {
-      "Route": "TodoBlazor.h1e6qj2uyw.bundle.scp.css",
+      "Route": "TodoBlazor.rir08mxyu4.bundle.scp.css",
       "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TodoBlazor.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -85537,7 +88597,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4653"
+          "Value": "6104"
         },
         {
           "Name": "Content-Type",
@@ -85545,11 +88605,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4=\""
+          "Value": "\"rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 05:05:17 GMT"
+          "Value": "Wed, 18 Dec 2024 16:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85559,7 +88619,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h1e6qj2uyw"
+          "Value": "rir08mxyu4"
         },
         {
           "Name": "label",
@@ -85567,13 +88627,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4="
+          "Value": "sha256-rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y="
         }
       ]
     },
     {
-      "Route": "TodoBlazor.h1e6qj2uyw.bundle.scp.css.gz",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\9mheq6a2v3-h1e6qj2uyw.gz",
+      "Route": "TodoBlazor.rir08mxyu4.bundle.scp.css.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\9mheq6a2v3-rir08mxyu4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -85582,7 +88642,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1400"
+          "Value": "1751"
         },
         {
           "Name": "Content-Type",
@@ -85590,11 +88650,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5Y1NU1EWnl7+sgpX3HUMVF71ySc9p4dGAumUXoC4OYM=\""
+          "Value": "\"OTj03yIqrNOd25ahjmWic8q+krvrgLP5jGMJ/AQyhiU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 05:05:17 GMT"
+          "Value": "Wed, 18 Dec 2024 16:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85612,7 +88672,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h1e6qj2uyw"
+          "Value": "rir08mxyu4"
         },
         {
           "Name": "label",
@@ -85620,18 +88680,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5Y1NU1EWnl7+sgpX3HUMVF71ySc9p4dGAumUXoC4OYM="
+          "Value": "sha256-OTj03yIqrNOd25ahjmWic8q+krvrgLP5jGMJ/AQyhiU="
         }
       ]
     },
     {
-      "Route": "TodoBlazor.h1e6qj2uyw.styles.css",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\xafkr2y1eo-h1e6qj2uyw.gz",
+      "Route": "TodoBlazor.rir08mxyu4.styles.css",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\xafkr2y1eo-rir08mxyu4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000713775874"
+          "Quality": "0.000570776256"
         }
       ],
       "ResponseHeaders": [
@@ -85641,15 +88701,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1400"
+          "Value": "1751"
         },
         {
           "Name": "ETag",
-          "Value": "\"5Y1NU1EWnl7+sgpX3HUMVF71ySc9p4dGAumUXoC4OYM=\""
+          "Value": "\"OTj03yIqrNOd25ahjmWic8q+krvrgLP5jGMJ/AQyhiU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 05:05:17 GMT"
+          "Value": "Wed, 18 Dec 2024 16:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85669,13 +88729,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4=\""
+          "Value": "W/\"rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h1e6qj2uyw"
+          "Value": "rir08mxyu4"
         },
         {
           "Name": "label",
@@ -85683,12 +88743,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4="
+          "Value": "sha256-rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y="
         }
       ]
     },
     {
-      "Route": "TodoBlazor.h1e6qj2uyw.styles.css",
+      "Route": "TodoBlazor.rir08mxyu4.styles.css",
       "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TodoBlazor.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -85698,7 +88758,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4653"
+          "Value": "6104"
         },
         {
           "Name": "Content-Type",
@@ -85706,11 +88766,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4=\""
+          "Value": "\"rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 05:05:17 GMT"
+          "Value": "Wed, 18 Dec 2024 16:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85720,7 +88780,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h1e6qj2uyw"
+          "Value": "rir08mxyu4"
         },
         {
           "Name": "label",
@@ -85728,13 +88788,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4="
+          "Value": "sha256-rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y="
         }
       ]
     },
     {
-      "Route": "TodoBlazor.h1e6qj2uyw.styles.css.gz",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\xafkr2y1eo-h1e6qj2uyw.gz",
+      "Route": "TodoBlazor.rir08mxyu4.styles.css.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\xafkr2y1eo-rir08mxyu4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -85743,7 +88803,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1400"
+          "Value": "1751"
         },
         {
           "Name": "Content-Type",
@@ -85751,11 +88811,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5Y1NU1EWnl7+sgpX3HUMVF71ySc9p4dGAumUXoC4OYM=\""
+          "Value": "\"OTj03yIqrNOd25ahjmWic8q+krvrgLP5jGMJ/AQyhiU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 05:05:17 GMT"
+          "Value": "Wed, 18 Dec 2024 16:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85773,7 +88833,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h1e6qj2uyw"
+          "Value": "rir08mxyu4"
         },
         {
           "Name": "label",
@@ -85781,18 +88841,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5Y1NU1EWnl7+sgpX3HUMVF71ySc9p4dGAumUXoC4OYM="
+          "Value": "sha256-OTj03yIqrNOd25ahjmWic8q+krvrgLP5jGMJ/AQyhiU="
         }
       ]
     },
     {
       "Route": "TodoBlazor.styles.css",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\xafkr2y1eo-h1e6qj2uyw.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\xafkr2y1eo-rir08mxyu4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000713775874"
+          "Quality": "0.000570776256"
         }
       ],
       "ResponseHeaders": [
@@ -85802,15 +88862,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1400"
+          "Value": "1751"
         },
         {
           "Name": "ETag",
-          "Value": "\"5Y1NU1EWnl7+sgpX3HUMVF71ySc9p4dGAumUXoC4OYM=\""
+          "Value": "\"OTj03yIqrNOd25ahjmWic8q+krvrgLP5jGMJ/AQyhiU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 05:05:17 GMT"
+          "Value": "Wed, 18 Dec 2024 16:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85830,13 +88890,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4=\""
+          "Value": "W/\"rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4="
+          "Value": "sha256-rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y="
         }
       ]
     },
@@ -85851,7 +88911,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4653"
+          "Value": "6104"
         },
         {
           "Name": "Content-Type",
@@ -85859,11 +88919,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4=\""
+          "Value": "\"rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 05:05:17 GMT"
+          "Value": "Wed, 18 Dec 2024 16:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85873,13 +88933,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4="
+          "Value": "sha256-rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y="
         }
       ]
     },
     {
       "Route": "TodoBlazor.styles.css.gz",
-      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\xafkr2y1eo-h1e6qj2uyw.gz",
+      "AssetFile": "D:\\VS\\Asp.net\\Todo\\TodoBlazor\\obj\\Debug\\net9.0\\compressed\\xafkr2y1eo-rir08mxyu4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -85888,7 +88948,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1400"
+          "Value": "1751"
         },
         {
           "Name": "Content-Type",
@@ -85896,11 +88956,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5Y1NU1EWnl7+sgpX3HUMVF71ySc9p4dGAumUXoC4OYM=\""
+          "Value": "\"OTj03yIqrNOd25ahjmWic8q+krvrgLP5jGMJ/AQyhiU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 05:05:17 GMT"
+          "Value": "Wed, 18 Dec 2024 16:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85918,7 +88978,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5Y1NU1EWnl7+sgpX3HUMVF71ySc9p4dGAumUXoC4OYM="
+          "Value": "sha256-OTj03yIqrNOd25ahjmWic8q+krvrgLP5jGMJ/AQyhiU="
         }
       ]
     }

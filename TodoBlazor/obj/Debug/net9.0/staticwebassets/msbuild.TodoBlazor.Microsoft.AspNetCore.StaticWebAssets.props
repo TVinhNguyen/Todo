@@ -894,8 +894,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>h1e6qj2uyw</Fingerprint>
-      <Integrity>a02rMxLWCHCuSU/oJ9UbCVNL/MWpbKzKe8YKy6tIsb4=</Integrity>
+      <Fingerprint>rir08mxyu4</Fingerprint>
+      <Integrity>rcTUegcpDWqRsD0V7e6s7mnLV2lq830rGVG9j+xTf/Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TodoBlazor.styles.css'))</OriginalItemSpec>

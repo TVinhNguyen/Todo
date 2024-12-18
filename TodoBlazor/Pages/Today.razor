@@ -1,33 +1,44 @@
 ﻿@page "/today"
+@inject NavigationManager NavigationManager
+@inject AuthState AuthState
 
-<PageTitle>Today's Tasks</PageTitle>
+@if (!AuthState.IsAuthenticated)
+{
+    NavigationManager.NavigateTo("/login");
+    <p>Redirecting to login...</p>
+}
+else
+{
+    <PageTitle>Today's Tasks</PageTitle>
 
-<div class="container mt-4">
-    <h3><i class="bi bi-calendar-day"></i> Today's Tasks</h3>
-    
-    <div class="card mt-4">
-        <div class="card-body">
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <input type="text" class="form-control" placeholder="Add new task..." @bind="newTask" @onkeyup="AddTask" />
-            </div>
+    <div class="container mt-4">
+        <h3><i class="bi bi-calendar-day"></i> Today's Tasks</h3>
+        
+        <div class="card mt-4">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <input type="text" class="form-control" placeholder="Add new task..." @bind="newTask" @onkeyup="AddTask" />
+                </div>
 
-            @if (todaysTasks.Any())
-            {
-                foreach (var task in todaysTasks)
+                @if (todaysTasks.Any())
                 {
-                    <div class="d-flex align-items-center mb-2">
-                        <input type="checkbox" checked="@task.IsCompleted" @onchange="e => ToggleComplete(task)" />
-                        <span class="ms-2 @(task.IsCompleted ? "text-decoration-line-through" : "")">@task.Title</span>
-                    </div>
+                    foreach (var task in todaysTasks)
+                    {
+                        <div class="d-flex align-items-center mb-2">
+                            <input type="checkbox" checked="@task.IsCompleted" @onchange="e => ToggleComplete(task)" />
+                            <span class="ms-2 @(task.IsCompleted ? "text-decoration-line-through" : "")">@task.Title</span>
+                        </div>
+                    }
                 }
-            }
-            else
-            {
-                <p class="text-muted">No tasks for today</p>
-            }
+                else
+                {
+                    <p class="text-muted">No tasks for today</p>
+                }
+            </div>
         </div>
     </div>
-</div>
+}
+
 
 @code {
     private string newTask = "";

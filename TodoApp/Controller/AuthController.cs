@@ -30,6 +30,7 @@ namespace TodoApp.Controller
             try
             {
                 var token = _authService.Authenticate(loginDto.Username, loginDto.Password);
+
                 if (token == null)
                 {
                     return Unauthorized(new { Message = "Invalid credentials" });
@@ -62,9 +63,7 @@ namespace TodoApp.Controller
                 if (result != null)  return Ok(new { Message = "User registered successfully" });
 
                 return  BadRequest(new { Message = "Can't create User" });
-                {
-                    return BadRequest(new { Message = "User already exists" });
-                }
+               
 
                 
             }
