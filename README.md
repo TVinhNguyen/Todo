@@ -95,7 +95,7 @@ git clone https://github.com/TVinhNguyen/Todo.git
    ```bash
    dotnet run
    ```
-   Frontend sẽ hoạt động tại `https://localhost:5226`.
+   Frontend sẽ hoạt động tại `http://localhost:5056`.
 
 ---
 
